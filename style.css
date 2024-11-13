@@ -1,0 +1,21 @@
+.background {
+  background-color: lightgrey;
+  position: relative;
+  display: inline-block;
+  height: 100vh;
+}
+
+.crane {
+  max-width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  background-color: rgb(255, 0, 0, 0.5);
+  position: absolute;
+  left: 30%; /* adjust as required */
+  top: 52%; /* adjust as required */
+  width: auto;
+  font-size: 1em;
+  padding: 2px;
+}
